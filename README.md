@@ -1,16 +1,110 @@
-# React + Vite
+# Cosmetics Shop Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, elegant, and responsive cosmetics website developed as a front-end web development project for Flash Solution.
 
-Currently, two official plugins are available:
+## About The Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a cosmetics shop website designed for a cosmetics business that does not currently have a dedicated website.
 
-## React Compiler
+The main goal is to create a professional, attractive, and user-friendly website where customers can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Discover the cosmetics brand
+- Browse products
+- View product details
+- Add products to a cart
+- Checkout
+- Create an account
+- View their orders
+- Contact the business
 
-## Expanding the ESLint configuration
+The website is designed to work on desktop, tablet, and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Objectives
+
+- Build a modern cosmetics website
+- Create a clean and elegant user interface
+- Make the website fully responsive
+- Provide easy navigation for customers
+- Practice React development
+- Practice UI/UX design with Figma
+- Use Git and GitHub for version control
+- Work effectively as a development team
+
+## User Roles
+
+### Customer
+
+Customers can:
+
+- View the homepage
+- Browse products
+- View product details
+- Add products to cart
+- Checkout
+- Register an account
+- Login
+- Manage their profile
+- View their orders
+- Contact the business
+
+### Admin
+
+Admins can:
+
+- View the dashboard
+- Manage products
+- Manage product categories
+- Manage customer accounts
+- Manage orders
+- Manage reviews
+- View contact messages
+- Manage website settings
+
+## Main Pages
+
+### Customer Pages
+
+- Home
+- Products
+- Product Details
+- About Us
+- Contact
+- Cart
+- Checkout
+- Login
+- Register
+- My Account
+- My Orders
+- Order Details
+
+### Admin Pages
+
+- Dashboard
+- Products
+- Categories
+- Orders
+- Customers
+- Reviews
+- Messages
+- Settings
+
+## User Flow
+
+```text
+Home
+  ↓
+Products
+  ↓
+Product Details
+  ↓
+Add to Cart
+  ↓
+Cart
+  ↓
+Checkout
+  ↓
+Login / Register
+  ↓
+Place Order
+  ↓
+Order Confirmation
